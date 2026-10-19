@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f5f0;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+ul{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: #526b5b;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #2c3e50 ;
+}
+
+.center {
+    text-align: center;
+}
+.formacao {
+    padding: 60px 20px;
+    background-color: #f7f5f0;
+    color: #333333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.formacao h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #526b5b;
+    margin-bottom: 40px;
+}
+
+.formacao-item {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-left: 5px solid #8a9b82;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.formacao-item h3 {
+    color: #526b5b;
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.formacao-item p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.formacao-item p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Espaçamento geral das seções */
+main section {
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+/* Títulos principais das seções */
+main section h3 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+/* Cada bloco de formação */
+.formacao-item {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+/* Título de cada formação */
+.formacao-item h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Texto e parágrafos */
+main section p {
+    margin-top: 0;
+    margin-bottom: 18px;
+    line-height: 1.8;
+}
+
+/* Evita espaço extra após o último parágrafo */
+.formacao-item p:last-child {
+    margin-bottom: 0;
+}
+
+/* Formação complementar */
+.secao-cursos {
+    padding: 40px 20px;
+}
+
+.introducao-cursos {
+    max-width: 800px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.titulo-grupo {
+    margin: 32px 0 18px;
+    color: #526b5a;
+}
+
+.grade-cursos {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.curso-card {
+    padding: 22px;
+    background-color: #f7f5f0;
+    border: 1px solid #e5e2d9;
+    border-top: 3px solid #9aaa8a;
+    border-radius: 8px;
+}
+
+.curso-card h4 {
+    margin: 14px 0 10px;
+    color: #34483d;
+    line-height: 1.5;
+}
+
+.curso-card p {
+    line-height: 1.7;
+}
+
+.curso-card h5 {
+    margin: 20px 0 8px;
+    color: #526b5a;
+}
+
+.curso-card ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.curso-status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.concluido {
+    background-color: #e1eadf;
+    color: #355640;
+}
+
+.andamento {
+    background-color: #f1e8d8;
+    color: #795d2c;
+}
+
+.instituicao-curso {
+    font-weight: 600;
+    color: #526b5a;
+}
+
+@media (max-width: 700px) {
+    .grade-cursos {
+        grid-template-columns: 1fr;
+    }
+
+    .secao-cursos {
+        padding: 30px 16px;
+    }
+}
+
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav {
+    width: 100%;
+    background-color: #2f4f4f;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
