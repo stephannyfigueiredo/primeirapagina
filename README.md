@@ -1,41 +1,37 @@
-🌐 Minha Primeira Página Web
+# 🌐 Primeira Página Web
 
-Este projeto foi desenvolvido como parte dos meus estudos em Desenvolvimento Front-End, com o objetivo de praticar os fundamentos da criação de páginas web utilizando HTML e CSS.
+Projeto desenvolvido como parte da avaliação de **Iniciação à Tecnologia da Informação** do curso de Desenvolvimento Front-End no SENAI Maracanã.
 
-📚 Sobre o projeto
+---
 
-A proposta deste trabalho é colocar em prática os primeiros conceitos de desenvolvimento web, explorando a estrutura de uma página, a organização dos elementos e a estilização visual.
+## 🎯 Objetivos do Projeto
 
-🛠️ Tecnologias utilizadas
+- [x] Criar uma estrutura básica de página Web utilizando **HTML5**.
+- [x] Implementar as tags e boas práticas apresentadas em aula para a construção de uma home page.
+- [x] Criar e versionar o código utilizando o **GitHub**.
+- [x] Realizar o deploy do projeto utilizando o **GitHub Pages**.
 
-HTML5 — estruturação do conteúdo da página.
+---
 
-CSS3 — estilização e organização visual dos elementos.
+## 🛠️ Tecnologias Utilizadas
 
-🎯 Objetivos de aprendizagem
+- **HTML5**: Estruturação do conteúdo da página.
+- **Git & GitHub**: Controle de versão e hospedagem do código fonte.
+- **GitHub Pages**: Hospedagem gratuita da página estática.
 
-Compreender a estrutura básica de um documento HTML.
+---
 
-Aplicar estilos utilizando CSS.
+## 🚀 Como Visualizar o Projeto
 
-Trabalhar com elementos, seletores e propriedades de estilização.
+Você pode acessar o site publicado através do link:  
+👉 **[https://stephannyfigueiredo.github.io/primeirapagina/](https://stephannyfigueiredo.github.io/primeirapagina/)** 
 
-Desenvolver a organização visual de uma página web.
+---
 
-Praticar o uso do GitHub para armazenar e compartilhar projetos.
+## 👨‍🏫 Contexto Acadêmico
 
-🚀 Como visualizar
-
-Acesse o repositório para consultar os arquivos do projeto:
-
-🔗 Minha Primeira Página — GitHub
-
-👩‍💻 Autora
-
-Sté Figueiredo
-
-Estudante de Desenvolvimento Front-End e Back-End, interessada em tecnologia, saúde digital e no desenvolvimento de soluções que integrem saúde e inovação.
-
-📌 Meu perfil no GitHub
-
-Projeto acadêmico desenvolvido para fins de estudo e prática em desenvolvimento web.
+- **Instituição:** SENAI Maracanã
+- **Curso:** Desenvolvimento Front-End
+- **Disciplina:** Iniciação à Tecnologia da Informação
+- **Instrutor:** Prof. Nivaldo Araujo
+- **Aluna:** Stephanny Figueiredo
